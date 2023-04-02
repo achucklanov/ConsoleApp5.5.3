@@ -21,7 +21,7 @@
             
             if(modif.Length > 2) 
             {
-            modif = modif.Remove(0, 1);
+            modif = modif.Remove(0, 1); //на платформе использ. Remove(0, 2)
             }
 
             Console.WriteLine("...." + modif);
